@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Interface">
+  <grid id="27dc6" binding="panelMain" layout-manager="GridLayoutManager" row-count="4" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="16" width="575" height="388"/>
+    </constraints>
+    <properties>
+      <background color="-12768447"/>
+      <font name="Comic Sans MS"/>
+      <maximumSize width="-1" height="-1"/>
+      <preferredSize width="300" height="200"/>
+    </properties>
+    <border type="etched" title-position="2"/>
+    <children>
+      <component id="3b7c3" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-983297"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="100" height="30"/>
+        </properties>
+      </component>
+      <component id="ee02e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <inheritsPopupMenu value="true"/>
+          <text value="Introduceti portul serverului : "/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="73dc5" class="javax.swing.JButton" binding="stopServerButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1181185"/>
+          <foreground color="-16120571"/>
+          <label value="Stop Server"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Stop Server"/>
+        </properties>
+      </component>
+      <component id="90289" class="javax.swing.JButton" binding="pauseServerButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1115393"/>
+          <foreground color="-16777216"/>
+          <label value="Pause Server"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Pause Server"/>
+        </properties>
+      </component>
+      <component id="22026" class="javax.swing.JButton" binding="startServerButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1507841"/>
+          <foreground color="-16777216"/>
+          <margin top="10" left="10" bottom="10" right="10"/>
+          <text value="Start Server"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
